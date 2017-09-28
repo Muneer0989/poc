@@ -1,0 +1,23 @@
+<nav>
+	<a href="./">Game</a>
+	<a class="active" href="./standings">Standings</a>
+</nav>
+
+{{#if standings}}
+
+	<ul>
+
+		{{#each standings}}
+		
+		<li>
+			<img src="photos/{{name}}" alt="Cat picture thumbnail" />
+			<p class="up">{{this.likes}}</p>
+            <p class="down">{{this.dislikes}}</p>
+			<p class="id">liked by: {{this._id}}</p>
+		</li>
+
+		{{/each}}
+
+	</ul>
+
+{{/if}}

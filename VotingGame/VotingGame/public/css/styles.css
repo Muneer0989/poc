@@ -217,6 +217,13 @@ ul li p.down{
 	background-position: 17px -192px;
 }
 
+ul li p.id{
+	color:#e67a85;
+	top:-40px;
+	left:-55px;
+    width:300px;
+}
+
 
 /*----------------------------
 	The Demo Footer
